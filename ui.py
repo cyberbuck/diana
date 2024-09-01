@@ -216,7 +216,7 @@ def render_ui(prompts, process_with_openai, process_with_anthropic):
             [
                 "AWS Athena", "StreamAlert", "Splunk SPL", "Elastic Query DSL",
                 "Kusto Query Language (KQL)",
-                "Sigma Rules","Panther Detection-as-Code (Python)"
+                "Sigma Rules","Panther Detection-as-Code (Python)", "Hunters (Snowflake SQL)"
             ],
             key="detection_language_select",
             help="Choose the query language for your detection rules."
